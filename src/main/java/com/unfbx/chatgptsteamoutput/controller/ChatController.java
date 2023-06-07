@@ -3,6 +3,7 @@ package com.unfbx.chatgptsteamoutput.controller;
 import cn.hutool.core.util.StrUtil;
 import com.unfbx.chatgpt.exception.BaseException;
 import com.unfbx.chatgpt.exception.CommonError;
+import com.unfbx.chatgpt.interceptor.OpenAILogger;
 import com.unfbx.chatgptsteamoutput.controller.request.ChatRequest;
 import com.unfbx.chatgptsteamoutput.controller.response.ChatResponse;
 import com.unfbx.chatgptsteamoutput.service.SseService;
